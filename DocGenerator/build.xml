@@ -5,9 +5,8 @@
     <!--define folder properties-->
     <property name="dir.buildfile" value="."/>
     <property name="dir.workspace" value="${dir.buildfile}/../.."/>
-    <property name="dir.jarfile" value="D:/KaisProgrammerZeug/XMLPorter"/>
     <target name="create_run_jar">
-        <jar destfile="${dir.jarfile}/DocGen.jar" filesetmanifest="mergewithoutmain">
+        <jar destfile="./DocGen.jar" filesetmanifest="mergewithoutmain">
             <manifest>
                 <attribute name="Main-Class" value="application.Main"/>
                 <attribute name="Class-Path" value="."/>
