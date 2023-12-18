@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<ksDoc>
+	<ksDO name="KSTest">
+			
+		<!-- Testkommentar -->
+		<ksDOAttribute name="TEST_ID" 				dataType="Integer"		description="ID des Testdatensatzes"/>
+		<ksDOAttribute name="TEST_NAME" 			dataType="String"		description="Testname"/>
+		<ksDOAttribute name="TEST_DATUM" 			dataType="Date"			description="Test Datum"/>
+		<ksDOAttribute name="TEST_BETRAG" 			dataType="BigDecimal"	description="Test Geldbetrag"/>
+	</ksDO>
+</ksDoc>

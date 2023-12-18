@@ -1,0 +1,10 @@
+{
+ 	"AttributeNames": [
+    	"ksDOAttribute"
+  	],
+  	"AttributeValues": [
+  	  "name",
+  	  "dataType",
+  	  "description"
+  	]
+}
