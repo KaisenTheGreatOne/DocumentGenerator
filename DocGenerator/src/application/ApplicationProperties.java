@@ -86,7 +86,7 @@ public class ApplicationProperties
      */
     public void readPropertiesFile(String path)
     {
-        ApplicationProperties.kfwLogger.log("Lade Properties-Datei");
+        kfwLogger.log("Lade Properties-Datei");
         
         try
         {
@@ -99,7 +99,7 @@ public class ApplicationProperties
                 for (int i = 0; i < len; i++)
                 {
                     attributeNames.add(attributeNamesFromFile.get(i).toString());
-                    ApplicationProperties.kfwLogger.log("Attribut-Name '" + attributeNamesFromFile.get(i).toString() + "' gefunden");
+                    kfwLogger.log("Attribut-Name '" + attributeNamesFromFile.get(i).toString() + "' gefunden");
                 }
             }
             
@@ -110,15 +110,15 @@ public class ApplicationProperties
                 for (int i = 0; i < len; i++)
                 {
                     attributeValues.add(attributeValuesFromFile.get(i).toString());
-                    ApplicationProperties.kfwLogger.log("Attribut-Value '" + attributeValuesFromFile.get(i).toString() + "' gefunden");
+                    kfwLogger.log("Attribut-Value '" + attributeValuesFromFile.get(i).toString() + "' gefunden");
                 }
             }
             
-            ApplicationProperties.kfwLogger.log("Properties-Datei erfolgreich geladen.");
+            kfwLogger.log("Properties-Datei erfolgreich geladen.");
         }
         catch (Exception e)
         {
-            ApplicationProperties.kfwLogger.logError("Fehler beim Laden der Properties-Datei!");
+            kfwLogger.logError("Fehler beim Laden der Properties-Datei!");
             e.printStackTrace();
         }
 
