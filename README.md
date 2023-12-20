@@ -10,7 +10,7 @@ Dieses Java-Tool ermöglicht es, Attribute aus einer XML-Datei auszulesen und in
 1. Eine `Properties.json` erstellen, oder die bereits vorhandene verwenden und die zu extrahierenden XML-Attribute und Elemente angeben. Beispiel:
 ```
 {
- 	"AttributeNames": ["ksDOAttribute"],
+ 	"AttributeNames": ["xmlAttribute"],
   	"AttributeValues": ["name", "dataType", "description"]
 }
 ```
